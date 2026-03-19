@@ -60,5 +60,71 @@
         </div>
     </header>
 
-    </body>
+    <section id="process" class="py-24 max-w-7xl mx-auto px-6">
+        <div class="text-center mb-16">
+            <h2 class="text-4xl font-bold text-brand-blue mb-4">出租過程概述</h2>
+            <div class="h-1 w-24 bg-orange-500 mx-auto"></div>
+        </div>
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="bg-white rounded-xl shadow-lg border-b-8 border-orange-500 overflow-hidden hover:shadow-2xl transition p-8 text-center">
+                <i class="fas fa-search-dollar text-4xl brand-orange mb-4 block"></i>
+                <h3 class="text-2xl font-bold text-brand-blue mb-4">標的出租建議</h3>
+                <p class="text-gray-600">建議理想出租價格及室內設備的調整。</p>
+            </div>
+            <div class="bg-white rounded-xl shadow-lg border-b-8 border-orange-500 overflow-hidden hover:shadow-2xl transition p-8 text-center">
+                <i class="fas fa-chess text-4xl brand-orange mb-4 block"></i>
+                <h3 class="text-2xl font-bold text-brand-blue mb-4">銷售策略規劃</h3>
+                <p class="text-gray-600">明確價格制定銷售方向，往理想租金帶推進。</p>
+            </div>
+            <div class="bg-white rounded-xl shadow-lg border-b-8 border-orange-500 overflow-hidden hover:shadow-2xl transition p-8 text-center">
+                <i class="fas fa-ad text-4xl brand-orange mb-4 block"></i>
+                <h3 class="text-2xl font-bold text-brand-blue mb-4">客製化行銷廣告</h3>
+                <p class="text-gray-600">客製化銷售電子文宣與特色撰寫。</p>
+            </div>
+            <div class="bg-white rounded-xl shadow-lg border-b-8 border-orange-500 overflow-hidden hover:shadow-2xl transition p-8 text-center">
+                <i class="fas fa-bullhorn text-4xl brand-orange mb-4 block"></i>
+                <h3 class="text-2xl font-bold text-brand-blue mb-4">帶看銷講</h3>
+                <p class="text-gray-600">專業陪同看房，深度分析物件特色。</p>
+            </div>
+            <div class="bg-white rounded-xl shadow-lg border-b-8 border-orange-500 overflow-hidden hover:shadow-2xl transition p-8 text-center">
+                <i class="fas fa-handshake text-4xl brand-orange mb-4 block"></i>
+                <h3 class="text-2xl font-bold text-brand-blue mb-4">斡旋面談</h3>
+                <p class="text-gray-600">嚴格篩選承租方，代為溝通租房條件。</p>
+            </div>
+            <div class="bg-white rounded-xl shadow-lg border-b-8 border-orange-500 overflow-hidden hover:shadow-2xl transition p-8 text-center">
+                <i class="fas fa-file-signature text-4xl brand-orange mb-4 block"></i>
+                <h3 class="text-2xl font-bold text-brand-blue mb-4">簽約作業</h3>
+                <p class="text-gray-600">提供合約審閱，現場說明並圓滿點交。</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-24 bg-white">
+        <div class="max-w-4xl mx-auto px-6">
+            <div class="brand-blue p-10 md:p-16 rounded-3xl shadow-2xl relative overflow-hidden border-t-8 border-orange-500">
+                <h2 class="text-4xl font-bold text-white text-center mb-12">預約專業諮詢</h2>
+                <form action="https://formspree.io/f/xeervovn" method="POST" class="space-y-6">
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <input type="text" name="name" placeholder="您的姓名" required class="w-full p-4 rounded-xl bg-white/10 border border-white/20 text-white placeholder-white/50 focus:outline-none focus:ring-2 focus:ring-orange-500">
+                        <input type="tel" name="phone" placeholder="聯絡電話" required class="w-full p-4 rounded-xl bg-white/10 border border-white/20 text-white placeholder-white/50 focus:outline-none focus:ring-2 focus:ring-orange-500">
+                    </div>
+                    <select name="identity" class="w-full p-4 rounded-xl bg-white/10 border border-white/20 text-white focus:outline-none focus:ring-2 focus:ring-orange-500">
+                        <option value="屋主" class="text-gray-800">我是屋主 - 我要委託出租規劃</option>
+                        <option value="承租方" class="text-gray-800">我是承租方 - 我在尋找優質房源</option>
+                    </select>
+                    <textarea name="message" rows="4" placeholder="補充訊息..." class="w-full p-4 rounded-xl bg-white/10 border border-white/20 text-white placeholder-white/50 focus:outline-none focus:ring-2 focus:ring-orange-500"></textarea>
+                    <button type="submit" class="w-full bg-orange-500 text-white font-bold py-5 rounded-xl hover:bg-orange-600 transition text-xl shadow-xl">提交需求</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-12 text-center text-gray-400 border-t">
+        <div class="mb-4">
+            <span class="text-brand-blue font-bold">台灣房屋 家睦團隊</span> | 服務專員：嚴之唯 · 劉子川
+        </div>
+        <p class="text-sm">© 2026 房屋出租規劃專屬網頁. All rights reserved.</p>
+    </footer>
+
+</body>
 </html>
