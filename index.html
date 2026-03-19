@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>台灣房屋 家睦團隊 | 專業房屋出租規劃服務</title>
     
-    <meta name="description" content="台灣房屋家睦團隊提供專業房屋出租建議、客製化行銷、後續房管服務。從房管群組到退租點交，讓您的房產出租更高效、更安心。">
+    <meta name="description" content="台灣房屋家睦團隊提供專業房屋出租建議、客製化行銷、後續房管服務。">
     <meta property="og:title" content="台灣房屋 家睦團隊 | 房屋出租規劃專屬網頁">
-    <meta property="og:image" content="image_0.png">
+    <meta property="og:image" content="https://raw.githubusercontent.com/may860107/house-projectNEW/main/profile.png">
     
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
@@ -44,18 +44,19 @@
             background: linear-gradient(180deg, rgba(52, 73, 85, 0.9) 0%, rgba(52, 73, 85, 0.85) 100%);
         }
 
-        /* 專門處理形象照裁切，隱藏原本底部的資訊條 */
+        /* 專業裁切形象照，隱藏底部的電話資訊條 */
         .profile-img-container {
             position: relative;
             overflow: hidden;
             background-color: #f3f4f6;
+            border-radius: 1.5rem;
         }
         .profile-img-container img {
             width: 100%;
             height: 100%;
             object-fit: cover;
-            object-position: top; /* 從頂部對齊以裁切底部 */
-            transform: scale(1.1); /* 稍微放大確保裁掉底部 */
+            object-position: top; 
+            transform: scale(1.1); /* 稍微放大以確保裁掉底部原本的字 */
         }
     </style>
 </head>
@@ -81,7 +82,7 @@
         
         <div class="relative z-10 max-w-5xl mx-auto px-6 w-full text-center py-20">
             <div class="flex flex-col items-center">
-                <img src="image_0.png" alt="Logo" class="w-full max-w-[320px] mb-6 object-contain">
+                <img src="https://raw.githubusercontent.com/may860107/house-projectNEW/main/image_0.png" alt="Logo" class="w-full max-w-[320px] mb-6 object-contain">
                 
                 <h1 class="text-4xl md:text-6xl font-bold mb-7 leading-tight tracking-tight">房屋出租規劃<br><span class="text-brand-orange text-3xl md:text-4xl mt-3 block">專業 · 高效 · 安心</span></h1>
                 
@@ -125,103 +126,62 @@
     <section id="process" class="py-28 max-w-7xl mx-auto px-6">
         <div class="text-center mb-16">
             <h2 class="text-4xl md:text-5xl font-bold text-brand-blue mb-5 tracking-tight">標準化出租流程</h2>
-            <p class="text-gray-500 text-lg">專業代租服務，為您解決所有繁瑣手續，達成理想成交</p>
             <div class="h-1.5 w-24 bg-brand-orange mx-auto mt-6 rounded-full"></div>
         </div>
         
         <div class="grid md:grid-cols-3 gap-8">
-            <div class="hover-card bg-white rounded-2xl shadow-xl border-b-[10px] border-orange-500 overflow-hidden transform transition-all duration-300">
-                <div class="h-56 overflow-hidden bg-gray-200">
+            <div class="hover-card bg-white rounded-2xl shadow-xl border-b-[10px] border-orange-500 overflow-hidden">
+                <div class="h-56 bg-gray-200">
                     <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=800&q=80" class="w-full h-full object-cover">
                 </div>
                 <div class="p-8 text-center">
                     <h3 class="text-2xl font-bold text-brand-blue mb-4">1. 標的出租建議</h3>
-                    <p class="text-gray-600 leading-relaxed">提供市場行情分析、租金建議及室內設備調整規劃，提升標的競爭力。</p>
+                    <p class="text-gray-600 leading-relaxed">提供市場行情分析、租金建議及規劃。</p>
                 </div>
             </div>
-            <div class="hover-card bg-white rounded-2xl shadow-xl border-b-[10px] border-orange-500 overflow-hidden transform transition-all duration-300">
-                <div class="h-56 overflow-hidden bg-gray-200">
+            <div class="hover-card bg-white rounded-2xl shadow-xl border-b-[10px] border-orange-500 overflow-hidden">
+                <div class="h-56 bg-gray-200">
                     <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=800&q=80" class="w-full h-full object-cover">
                 </div>
                 <div class="p-8 text-center">
                     <h3 class="text-2xl font-bold text-brand-blue mb-4">2. 銷售策略規劃</h3>
-                    <p class="text-gray-600 leading-relaxed">明確價格與受眾定位，制定精準銷售方向，穩定往理想租金帶推進。</p>
+                    <p class="text-gray-600 leading-relaxed">明確價格與受眾定位，制定精準銷售方向。</p>
                 </div>
             </div>
-            <div class="hover-card bg-white rounded-2xl shadow-xl border-b-[10px] border-orange-500 overflow-hidden transform transition-all duration-300">
-                <div class="h-56 overflow-hidden bg-gray-200">
+            <div class="hover-card bg-white rounded-2xl shadow-xl border-b-[10px] border-orange-500 overflow-hidden">
+                <div class="h-56 bg-gray-200">
                     <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&w=800&q=80" class="w-full h-full object-cover">
                 </div>
                 <div class="p-8 text-center">
                     <h3 class="text-2xl font-bold text-brand-blue mb-4">3. 客製化廣告</h3>
-                    <p class="text-gray-600 leading-relaxed">製作專屬特色文宣與物件文案，結合多管道數位行銷提升曝光量。</p>
+                    <p class="text-gray-600 leading-relaxed">製作專屬特色文宣與物件文案。</p>
                 </div>
             </div>
-            <div class="hover-card bg-white rounded-2xl shadow-xl border-b-[10px] border-orange-500 overflow-hidden transform transition-all duration-300">
-                <div class="h-56 overflow-hidden bg-gray-200">
+            <div class="hover-card bg-white rounded-2xl shadow-xl border-b-[10px] border-orange-500 overflow-hidden">
+                <div class="h-56 bg-gray-200">
                     <img src="https://images.unsplash.com/photo-1574621100236-d25b64cfd647?auto=format&fit=crop&w=800&q=80" class="w-full h-full object-cover">
                 </div>
                 <div class="p-8 text-center">
                     <h3 class="text-2xl font-bold text-brand-blue mb-4">4. 帶看銷講</h3>
-                    <p class="text-gray-600 leading-relaxed">專業專員全程陪同看房，深度解說物件優勢，即時解答疑問。</p>
+                    <p class="text-gray-600 leading-relaxed">專員全程陪同看房，深度解說物件優勢，即時解答疑問。</p>
                 </div>
             </div>
-            <div class="hover-card bg-white rounded-2xl shadow-xl border-b-[10px] border-orange-500 overflow-hidden transform transition-all duration-300">
-                <div class="h-56 overflow-hidden bg-gray-200">
+            <div class="hover-card bg-white rounded-2xl shadow-xl border-b-[10px] border-orange-500 overflow-hidden">
+                <div class="h-56 bg-gray-200">
                     <img src="https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=800" class="w-full h-full object-cover">
                 </div>
                 <div class="p-8 text-center">
                     <h3 class="text-2xl font-bold text-brand-blue mb-4">5. 客源篩選</h3>
-                    <p class="text-gray-600 leading-relaxed">嚴格審核承租方背景與財務狀況，代為溝通租房條件，確保客源優質。</p>
+                    <p class="text-gray-600 leading-relaxed">嚴格審核承租方背景，確保客源優質。</p>
                 </div>
             </div>
-            <div class="hover-card bg-white rounded-2xl shadow-xl border-b-[10px] border-orange-500 overflow-hidden transform transition-all duration-300">
-                <div class="h-56 overflow-hidden bg-gray-200">
+            <div class="hover-card bg-white rounded-2xl shadow-xl border-b-[10px] border-orange-500 overflow-hidden">
+                <div class="h-56 bg-gray-200">
                     <img src="https://images.unsplash.com/photo-1554469384-e58fac16e23a?auto=format&fit=crop&w=800&q=80" class="w-full h-full object-cover">
                 </div>
                 <div class="p-8 text-center">
                     <h3 class="text-2xl font-bold text-brand-blue mb-4">6. 簽約點交</h3>
-                    <p class="text-gray-600 leading-relaxed">提供合約審閱、設備詳盡點交與圓滿交付鑰匙程序，完成委託。</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="after-service" class="py-28 bg-slate-100 shadow-inner">
-        <div class="max-w-7xl mx-auto px-6">
-            <div class="text-center mb-16">
-                <h2 class="text-4xl md:text-5xl font-bold text-brand-blue mb-5 tracking-tight">後續服務概述</h2>
-                <p class="text-gray-500 text-lg">出租只是開始，專業管理才是安心的保證</p>
-                <div class="h-1.5 w-24 bg-brand-orange mx-auto mt-6 rounded-full"></div>
-            </div>
-            
-            <div class="grid md:grid-cols-3 gap-8">
-                <div class="bg-white p-10 rounded-3xl shadow-xl icon-card text-center border-t-8 border-brand-orange">
-                    <div class="text-brand-orange mb-8 flex justify-center">
-                        <div class="bg-orange-100 p-6 rounded-full">
-                            <i class="fas fa-house-user text-5xl"></i>
-                        </div>
-                    </div>
-                    <h3 class="text-2xl font-bold mb-5 text-brand-blue">1. 房管群組</h3>
-                    <p class="text-gray-600 leading-relaxed text-left">建置專屬管理群組，紀錄點交照片、合約租期、繳款日期等房屋相關資訊，達成資訊透明化管理。</p>
-                </div>
-                <div class="bg-white p-10 rounded-3xl shadow-xl icon-card text-center border-t-8 border-brand-orange">
-                    <div class="text-brand-orange mb-8 flex justify-center">
-                        <div class="bg-orange-100 p-6 rounded-full">
-                            <i class="fas fa-screwdriver-wrench text-5xl"></i>
-                        </div>
-                    </div>
-                    <h3 class="text-2xl font-bold mb-5 text-brand-blue">2. 管理事宜</h3>
-                    <p class="text-gray-600 leading-relaxed text-left">協助處理房屋大小事，安排專業師傅進行修繕，並進行責任判定及租客與屋主間的雙方協調。</p>
-                </div>
-                <div class="bg-white p-10 rounded-3xl shadow-lg icon-card text-center border-t-8 border-brand-orange">
-                    <div class="text-brand-orange mb-8 flex justify-center">
-                        <div class="bg-orange-100 p-6 rounded-full">
-                            <i class="fas fa-key text-5xl"></i>
-                        </div>
-                    </div>
-                    <h3 class="text-2xl font-bold mb-5 text-brand-blue">3. 退租點交</h3>
-                    <p class="text-gray-600 leading-relaxed text-left">租約期滿到場確認設備及屋況，專業結算水電雜費，確保交付鑰匙程序完整，達成圓滿退租。</p>
+                    <p class="text-gray-600 leading-relaxed">提供合約審閱、設備詳盡點交程序。</p>
                 </div>
             </div>
         </div>
@@ -232,10 +192,10 @@
             <div class="grid md:grid-cols-12 gap-12 items-center">
                 
                 <div class="md:col-span-5 flex flex-col items-center md:items-start">
-                    <div class="profile-img-container w-[300px] h-[380px] md:w-[380px] md:h-[480px] rounded-3xl shadow-2xl border-4 border-white mb-8">
-                        <img src="https://github.com/may860107/house-projectNEW/blob/35fb8e797e2e5ea21ef38a42727dc59851133e28/profile.png" alt="專業顧問">
+                    <div class="profile-img-container w-[300px] h-[380px] md:w-[380px] md:h-[480px] shadow-2xl border-4 border-white">
+                        <img src="https://raw.githubusercontent.com/may860107/house-projectNEW/35fb8e797e2e5ea21ef38a42727dc59851133e28/profile.png" alt="專業房產顧問">
                     </div>
-                    <div class="text-center md:text-left">
+                    <div class="mt-8 text-center md:text-left">
                         <h3 class="text-3xl font-black text-brand-blue mb-2">專業顧問 為您服務</h3>
                         <p class="text-xl text-brand-orange font-bold tracking-widest">您的安心出租首選</p>
                     </div>
@@ -250,14 +210,14 @@
                         
                         <form action="https://formspree.io/f/xeervovn" method="POST" class="space-y-5">
                             <div class="grid md:grid-cols-2 gap-5">
-                                <input type="text" name="name" placeholder="您的姓名" required class="w-full p-4 rounded-xl bg-white/10 border border-white/20 text-white placeholder-white/30 focus:outline-none focus:ring-2 focus:ring-orange-500 transition">
-                                <input type="tel" name="phone" placeholder="聯絡電話" required class="w-full p-4 rounded-xl bg-white/10 border border-white/20 text-white placeholder-white/30 focus:outline-none focus:ring-2 focus:ring-orange-500 transition">
+                                <input type="text" name="name" placeholder="您的姓名" required class="w-full p-4 rounded-xl bg-white/10 border border-white/20 text-white placeholder-white/30 focus:outline-none focus:ring-2 focus:ring-orange-500">
+                                <input type="tel" name="phone" placeholder="聯絡電話" required class="w-full p-4 rounded-xl bg-white/10 border border-white/20 text-white placeholder-white/30 focus:outline-none focus:ring-2 focus:ring-orange-500">
                             </div>
-                            <select name="identity" class="w-full p-4 rounded-xl bg-white/10 border border-white/20 text-white focus:outline-none focus:ring-2 focus:ring-orange-500 transition">
+                            <select name="identity" class="w-full p-4 rounded-xl bg-white/10 border border-white/20 text-white">
                                 <option value="屋主" class="text-gray-800">我是屋主 - 我要委託出租規劃</option>
                                 <option value="承租方" class="text-gray-800">我是承租方 - 我在尋找優質房源</option>
                             </select>
-                            <textarea name="message" rows="3" placeholder="補充訊息（如物件地點、房型...）" class="w-full p-4 rounded-xl bg-white/10 border border-white/20 text-white placeholder-white/30 focus:outline-none focus:ring-2 focus:ring-orange-500 transition"></textarea>
+                            <textarea name="message" rows="3" placeholder="補充訊息（如物件地點、房型...）" class="w-full p-4 rounded-xl bg-white/10 border border-white/20 text-white placeholder-white/30"></textarea>
                             <button type="submit" class="w-full bg-brand-orange text-white font-black py-5 rounded-xl hover:bg-orange-600 transition text-2xl shadow-xl transform active:scale-95 duration-150">
                                 提交需求
                             </button>
@@ -271,38 +231,29 @@
 
     <footer class="py-16 text-center text-gray-500 border-t bg-white relative z-10">
         <div class="max-w-7xl mx-auto px-6">
-            <div class="mb-4 flex flex-col items-center">
-                <p class="text-brand-blue font-black text-2xl mb-3 tracking-tighter">台灣房屋 家睦團隊</p>
-                <p class="text-sm tracking-widest text-gray-400">專業房屋出租規劃服務</p>
-            </div>
+            <p class="text-brand-blue font-black text-2xl mb-3">台灣房屋 家睦團隊</p>
+            <p class="text-sm tracking-widest text-gray-400">專業房屋出租規劃服務</p>
             <div class="h-px w-20 bg-gray-100 mx-auto my-8"></div>
-            <p class="text-xs text-gray-400">
-                © 2026 房屋出租規劃專屬網頁. All rights reserved.<br>
-                本網頁內容由家睦團隊專屬提供。
-            </p>
+            <p class="text-xs text-gray-400">© 2026 房屋出租規劃專屬網頁. All rights reserved.</p>
         </div>
     </footer>
 
-    <a href="https://line.me/ti/p/qGc-1AQvA5" target="_blank" class="md:hidden fixed bottom-24 right-6 bg-[#06C755] text-white w-14 h-14 rounded-full shadow-2xl z-[90] flex items-center justify-center transform hover:scale-110 transition shadow-[#06C755]/50">
+    <a href="https://line.me/ti/p/qGc-1AQvA5" target="_blank" class="fixed bottom-24 right-6 bg-[#06C755] text-white w-14 h-14 rounded-full shadow-2xl z-[90] flex items-center justify-center transform hover:scale-110 transition shadow-[#06C755]/50">
         <i class="fab fa-line text-3xl"></i>
     </a>
 
-    <div class="md:hidden fixed bottom-0 left-0 right-0 bg-white/95 backdrop-blur-sm border-t flex justify-around items-center py-3.5 z-[100] shadow-lg">
+    <div class="md:hidden fixed bottom-0 left-0 right-0 bg-white border-t flex justify-around items-center py-3 z-[100]">
         <a href="#process" class="flex flex-col items-center text-brand-blue">
-            <i class="fas fa-list-check text-xl mb-1.5"></i>
-            <span class="text-[11px] font-bold">出租流程</span>
-        </a>
-        <a href="#after-service" class="flex flex-col items-center text-brand-blue">
-            <i class="fas fa-hand-holding-heart text-xl mb-1.5"></i>
-            <span class="text-[11px] font-bold">後續服務</span>
+            <i class="fas fa-list-check text-xl mb-1"></i>
+            <span class="text-[10px] font-bold">出租流程</span>
         </a>
         <a href="#contact" class="flex flex-col items-center text-brand-orange">
-            <i class="fas fa-calendar-check text-xl mb-1.5"></i>
-            <span class="text-[11px] font-bold">預約諮詢</span>
+            <i class="fas fa-calendar-check text-xl mb-1"></i>
+            <span class="text-[10px] font-bold">預約諮詢</span>
         </a>
         <a href="https://line.me/ti/p/qGc-1AQvA5" target="_blank" class="flex flex-col items-center text-[#06C755]">
-            <i class="fab fa-line text-2xl mb-1"></i>
-            <span class="text-[11px] font-bold">LINE 諮詢</span>
+            <i class="fab fa-line text-2xl mb-0.5"></i>
+            <span class="text-[10px] font-bold">LINE 諮詢</span>
         </a>
     </div>
 
