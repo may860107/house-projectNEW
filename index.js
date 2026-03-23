@@ -1,5 +1,6 @@
 import { createClient } from 'next-sanity';
 
+// 📝 直接把 Sanity 連線資訊寫在同一個檔案裡，最安全！
 const client = createClient({
   projectId: 'dd04z9gp',
   dataset: 'production',
